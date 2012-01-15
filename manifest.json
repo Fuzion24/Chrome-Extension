@@ -1,0 +1,13 @@
+{
+  "name": "Batman flicker Extension",
+  "version": "1.0",
+  "description": "Useless application that shows batman pictures from flicker.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup" : "popup.html"
+  },
+  "permissions": [
+    "http://api.flickr.com/",
+    "notifications"
+  ]
+}
